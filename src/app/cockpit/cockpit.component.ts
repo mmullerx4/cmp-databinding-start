@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core'; //these need to be called from Angular
+import { Component, OnInit, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core'; //these need to be called from Angular //do we need viewChild & ElementRef
 
 
 @Component({
@@ -20,7 +20,7 @@ export class CockpitComponent implements OnInit {
 
   ngOnInit() {
 
-  }
+  } //lifecycle hook
 
   onAddServer(nameInput: HTMLInputElement) {
     console.log(this.serverContentInput)
